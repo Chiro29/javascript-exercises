@@ -5,9 +5,7 @@ const repeatString = function(word, n) {
     string = 'ERROR';  
   }
   else {
-    for(let i = 1; i <= n; i++) {
-      string = string + word;    
-    }
+    string = word.repeat(n);
   }
 
   return string;
